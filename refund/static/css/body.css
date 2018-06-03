@@ -1,0 +1,324 @@
+@media (min-width: 576px) { 
+    .exit {
+        margin-left: 0;
+    }
+    .navbar {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dash {
+        padding-top: 20px;
+        padding-left: 10px;
+    }
+    .form_captcha {
+        min-width: 302px;
+        width: 302px;
+        margin: 0 auto;
+    }
+ }
+
+@media (min-width: 768px) { 
+    .exit {
+        margin-left: 0;
+    }
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .dash {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .form_captcha {
+        min-width: 302px;
+        width: 302px;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .exit {
+        margin-left: 40px;
+    }
+    .navbar {
+        padding-left: 144px;
+        padding-right: 144px;
+    }
+    .dash {
+        padding-top: 20px;
+        padding-left: 244px;
+    }
+    .form_captcha {
+        min-width: 302px;
+        width: 302px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .exit {
+        margin-left: 40px;
+    }
+    .navbar {
+        padding-left: 144px;
+        padding-right: 144px;
+    }
+    .dash {
+        padding-top: 20px;
+        padding-left: 244px;
+    }
+    .form_captcha {
+        min-width: 302px;
+        width: 302px;
+    }
+ }
+
+/* typography */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2'),
+         url('../fonts/Roboto-Light.woff') format('woff'),
+         url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+         url('../fonts/Roboto-Regular.woff') format('woff'),
+         url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+         url('../fonts/Roboto-Bold.woff') format('woff'),
+         url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+  }
+
+/* site */
+
+body {
+    background: #fff;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.leform {
+    padding-top: 80px;
+}
+
+.logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.coform {
+    margin-top: 48px;
+}
+
+.coform .content {
+    margin: 0 auto;
+}
+
+.coform .content h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.coform .content  p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* form */
+.content .btn-primary {
+    background: #FD561F;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.content input {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px rgba(0, 0, 0, .12) solid;
+    padding-left: 0;
+}
+
+.text-danger {
+    color: #FD561F!important;
+}
+
+.form-control:focus {
+  border-color: #FD561F;
+  box-shadow: inset 0 1px 1px #fff, 0 0 8px #fff;
+}
+
+.form-check-label {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* dashboard */
+
+.container-fluid {
+    height: 100vh;
+    
+}
+
+.dash {
+    background: #fafafa;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.dash h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.navbar {
+    min-height: 75px;
+    background: #fff;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .2);
+    padding-bottom: 0px;
+}
+
+.navbar-nav {
+    min-height: 75px;
+    padding-top: 18px;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+.navbar-nav .active {
+    border-bottom: 4px #FD561F solid;
+}
+
+.nv:hover {
+    border-bottom: 4px #FD561F solid;
+}
+
+.navbar-light .navbar-nav .logout {
+    color: #FD561F;
+    font-size: 14px;
+}
+
+
+
+
+/* card */
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 0px;
+    font-size: 20px;
+}
+
+.card-header img {
+    margin-top: -4px;
+    margin-right: 10px;
+}
+
+.card-body a {
+    color: #FD561F;
+    font-size: 14px;
+}
+
+.card-body form {
+    margin-bottom: 15px;
+}
+
+.card-body .col-sm-9 {
+    max-width: 90%;
+    margin-bottom: 8px;
+}
+
+.card {
+    border-radius: 0;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
+}
+
+/* toggle */
+.onoffswitch {
+    position: relative; width: 30px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 14px; padding: 0; line-height: 14px;
+    border: 2px solid #E3E3E3; border-radius: 14px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 14px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 14px;
+    border: 2px solid #E3E3E3; border-radius: 14px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #FD561F;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #FD561F;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
+
+.text-danger {
+    font-size: 12px;
+}
+
+.media {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    min-width: 400px;
+}
+.media-object {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.form_captcha {
+    min-width: 302px;
+    width: 302px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.form-check-label {
+    font-size: 13px;
+}
+
+.form_captcha .forgot { 
+    position: absolute;
+    right: 2px;
+    top: 60px;
+}
+
+.form-group .forgot a {
+    color: #FD561F;
+    font-size: 12px;
+}
